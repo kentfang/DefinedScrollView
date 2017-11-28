@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <declare-styleable name="definedScrollView_LayoutParams">
+        <attr name="definedscrollve_alpha" format="boolean"/>
+        <attr name="definedscrollve_scaleX" format="boolean"/>
+        <attr name="definedscrollve_scaleY" format="boolean"/>
+        <attr name="definedscrollve_fromBgColor" format="color"/>
+        <attr name="definedscrollve_toBgColor" format="color"/>
+        <attr name="definedscrollve_translation"/>
+    </declare-styleable>
+
+    <attr name="definedscrollve_translation">
+        <flag name="fromTop" value="0x01" />
+        <flag name="fromBottom" value="0x02" />
+        <flag name="fromLeft" value="0x04" />
+        <flag name="fromRight" value="0x08" />
+    </attr>
+</resources>
